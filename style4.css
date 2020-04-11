@@ -1,0 +1,402 @@
+@import"https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+
+.parallax {
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url(1.jpg);
+	height: 150vh;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+.header {
+	position: absolute;
+	width: 100%;
+	height: 80px;
+	padding: 10px;
+	background: transparent;
+	box-sizing: border-box;
+	box-shadow: 0 20px 50px rgba(0,0,0,0.2);
+}
+
+.header .logo img {
+	position: absolute;
+	height: 50px;
+	width: 150px;
+	top: 20%;
+	left: 1.5%;
+}
+
+nav {
+	float: right;
+}
+
+.clearfix {
+	clear: both;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+nav ul li {
+	list-style: none;
+
+}
+
+nav ul li a {
+	display: block;
+	margin: 10px 0;
+	padding: 10px 20px;
+	text-decoration: none;
+	color: #fff;
+}
+
+nav ul li a:hover {
+	background: #069370;
+	color: #262626;
+	transition: 0.5s;
+}
+nav ul li a.active{
+background: #069370;
+	color: #262626;
+}
+
+.loginbox {
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: 500px;
+	width: 70%;
+	background: #f6f6f6;
+	border-radius: 50px;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.8);
+}
+
+.loginbox .loginlogo {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 40%;
+	background: #262626;
+	border-radius: 45px 0 0 45px;
+}
+
+.loginbox .login {
+	position: absolute;
+	left: 40%;
+	top: 0;
+	height: 100%;
+	width: 60%;
+	background: transparent;
+}
+
+.loginbox .login h1 {
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 2.5em;
+}
+
+.loginbox .login form {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+}
+
+.loginbox .login form input {
+	height: 0px;
+	width: 70%;
+	border: 1px solid grey;
+	border-top-color: transparent;	
+	border-left-color: transparent;	
+	border-right-color: transparent;	
+	border-bottom-color: 1px solid grey;
+	background: transparent;
+	padding: 25px;	
+}
+
+.loginbox .login form button {
+	height: 50px;
+	width: 70%;
+	border: 1px solid grey;
+	border-radius: 50px;
+}
+
+.wrapper {
+	position: absolute;
+	top: 80%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: 700px;
+	width: 80%;
+	background: transparent;
+}
+
+.wrapper .vegetable1 {
+	position: absolute;
+	top: 5%;
+	left: 10%;
+	height: 250px;
+	width: 20%;
+	border: 1px solid grey;
+	border-radius: 10px;
+}
+
+.wrapper .vegetable1:hover {
+	box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+	transition: 1s;
+}
+
+.wrapper .vegetable1 .img img {
+	height: 50%;
+	width: 100%;
+	border-radius: 10px 10px 0 0;
+}
+
+.wrapper .vegetable1 .name {
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #fff;
+	font-size: 1.5em;
+}
+
+.wrapper .vegetable1 .price {
+	position: absolute;
+	top: 75%;
+	left: 75%;
+	width: 100%;
+	transform: translate(-50%, -50%);
+	color: #fff;
+	font-size: 1.2em;
+}
+
+
+
+.wrapper .vegetable2 {
+	position: absolute;
+	top: 5%;
+	left: 40%;
+	height: 250px;
+	width: 20%;
+	border: 1px solid grey;
+	border-radius: 10px;
+}
+
+.wrapper .vegetable2:hover {
+	box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+	transition: 1s;
+}
+
+.wrapper .vegetable2 .img img {
+	height: 50%;
+	width: 100%;
+	border-radius: 10px 10px 0 0;
+}
+
+.wrapper .vegetable2 .name {
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #fff;
+	font-size: 1.5em;
+}
+
+.wrapper .vegetable2 .price {
+	position: absolute;
+	top: 75%;
+	left: 75%;
+	width: 100%;
+	transform: translate(-50%, -50%);
+	color: #fff;
+	font-size: 1.2em;
+}
+
+.wrapper .vegetable3 {
+	position: absolute;
+	top: 5%;
+	left: 70%;
+	height: 250px;
+	width: 20%;
+	border: 1px solid grey;
+	border-radius: 10px;
+}
+
+.wrapper .vegetable3:hover {
+	box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+	transition: 1s;
+}
+
+.wrapper .vegetable3 .img img {
+	height: 50%;
+	width: 100%;
+	border-radius: 10px 10px 0 0;
+}
+
+.wrapper .vegetable3 .name {
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #fff;
+	font-size: 1.5em;
+}
+
+.wrapper .vegetable3 .price {
+	position: absolute;
+	top: 75%;
+	left: 75%;
+	width: 100%;
+	transform: translate(-50%, -50%);
+	color: #fff;
+	font-size: 1.2em;
+}
+
+.wrapper .vegetable4 {
+	position: absolute;
+	top: 400px;
+	left: 10%;
+	height: 250px;
+	width: 20%;
+	border: 1px solid grey;
+	border-radius: 10px;
+}
+
+.wrapper .vegetable4:hover {
+	box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+	transition: 1s;
+}
+
+.wrapper .vegetable4 .img img {
+	height: 50%;
+	width: 100%;
+	border-radius: 10px 10px 0 0;
+}
+
+.wrapper .vegetable4 .name {
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #fff;
+	font-size: 1.5em;
+}
+
+.wrapper .vegetable4 .price {
+	position: absolute;
+	top: 75%;
+	left: 75%;
+	width: 100%;
+	transform: translate(-50%, -50%);
+	color: #fff;
+	font-size: 1.2em;
+}
+
+.wrapper .vegetable5 {
+	position: absolute;
+	top: 400px;
+	left: 40%;
+	height: 250px;
+	width: 20%;
+	border: 1px solid grey;
+	border-radius: 10px;
+}
+
+.wrapper .vegetable5:hover {
+	box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+	transition: 1s;
+}
+
+.wrapper .vegetable5 .img img {
+	height: 50%;
+	width: 100%;
+	border-radius: 10px 10px 0 0;
+}
+
+.wrapper .vegetable5 .name {
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #fff;
+	font-size: 1.5em;
+}
+
+.wrapper .vegetable5 .price {
+	position: absolute;
+	top: 75%;
+	left: 75%;
+	width: 100%;
+	transform: translate(-50%, -50%);
+	color: #fff;
+	font-size: 1.2em;
+}
+
+.wrapper .vegetable6 {
+	position: absolute;
+	top: 400px;
+	left: 70%;
+	height: 250px;
+	width: 20%;
+	border: 1px solid grey;
+	border-radius: 10px;
+}
+
+.wrapper .vegetable6:hover {
+	box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+	transition: 1s;
+}
+
+.wrapper .vegetable6 .img img {
+	border-radius: 10px 10px 0 0;
+	height: 50%;
+	width: 100%;
+}
+
+.wrapper .vegetable6 .name {
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #fff;
+	font-size: 1.5em;
+}
+
+.wrapper .vegetable6 .price {
+	position: absolute;
+	top: 75%;
+	left: 75%;
+	width: 100%;
+	transform: translate(-50%, -50%);
+	color: #fff;
+	font-size: 1.2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
